@@ -1,0 +1,45 @@
+footer{
+    width: 90%;
+    height: 10%;
+
+    padding: 0 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background: rgb(180,58,58);
+    background: linear-gradient(90deg, rgba(180,58,58,0) 0%, rgba(133,124,124,1) 50%, rgba(0,0,0,1) 100%);
+}
+.btn_rodape{
+    width: 2.5vw;
+    height: 2.5vw;
+
+    margin-left: 1%;
+
+    background-color:royalblue; }
+
+    #btn_support{
+        background-image: url(../img/fdc5ab4d9908148b66be99ec3d5d119a-icone-cinza-do-agente-de-suporte-masculino.webp);
+        background-repeat: none;
+        background-size:contain;
+        
+    }
+
+   #btn_insta {
+    background-image: url(../img/instagram-logo-black-and-white-transparent-background-free-png.webp);
+    background-repeat: none;
+    background-size:contain;
+   }
+
+   #btn_zap {
+    background-image: url(../img/whatsapp-icon-whatsapp-social-media-logo-free-png.webp);
+    background-repeat: none;
+    background-size:contain;
+   }
+
+   #btn_yt {
+    background-image: url(../img/youtube-logo-youtube-icon-transparent-free-png.webp);
+    background-repeat: none;
+    background-size:contain;
+   }

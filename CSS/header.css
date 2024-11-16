@@ -1,0 +1,64 @@
+header{
+    width: 90%;
+    height: 12%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 5%;
+
+    background: rgb(180,58,58);
+    background: linear-gradient(90deg, rgba(180,58,58,0) 0%, rgba(133,124,124,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+#logo{
+    width: 30%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+   
+}
+
+#icone_logo{
+    width: 4vw;
+    height: 4vw;
+    background-image: url(../img/originalImage.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+#profissao{
+    width: 80%;
+    height: 80%;
+    display:flex;
+    align-items: center;
+}
+
+
+#btns_cabecalho{
+    width: 40%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.btn_cabecalho{
+    width: 30%;
+    height: 80%;
+
+
+}
+#number_one{
+    border:none;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,121,9,1) 35%, rgba(0,212,255,1) 100%);
+}
